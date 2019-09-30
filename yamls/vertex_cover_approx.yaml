@@ -1,0 +1,16 @@
+solver: './solvers/vertex_cover_approx'
+n: 50
+iteration: 10000
+restart: 10000
+seed: 1234
+dirname: './results/vertex_cover_approx'
+gpu: -1
+
+opt: 'Adam'
+
+p: 0.1
+
+eps: 0.01
+
+lr: 0.0001
+noreplay: True
